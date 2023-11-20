@@ -1,0 +1,116 @@
+#cinema {
+    width: 20em;
+    height: 2.5em;
+    margin: 3px;
+}
+
+#searchButton {
+    width: 15em;
+    height: 2em;
+    margin: 3px;
+}
+
+#date {
+    width: 15em;
+    height: 1.5em;
+    margin: 5px;
+
+}
+
+.block {
+    display: grid;
+    grid-template-rows: 30% 40% 15% 15%;
+    border: 3px solid black;
+    align-content: center;
+    padding: 5px;
+    width: 320px;
+    margin-right: 8px;
+    margin-top: 8px;
+    border-radius: 30px 15px;
+    justify-items: center;
+    background-color: lightyellow;
+}
+
+img {
+    padding: 5px;
+}
+
+#schedule {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#select {
+    font-size: 1rem;
+    padding: 8px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightyellow;
+    padding-top: 8px;
+}
+
+header {
+    background-image: url("images/Title_background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 5px 5px 6px gray;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightskyblue;
+    font-size: 5rem;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+img {
+    padding: 15px;
+}
+
+.content {
+    max-width: 80%;
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    background-image: url("images/cinema_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
